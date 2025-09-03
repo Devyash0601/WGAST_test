@@ -6,7 +6,7 @@ from torch.utils.data import DataLoader
 
 import sys
 import os
-sys.path.append(os.path.abspath('..'))  # go up to root directory
+sys.path.append(os.path.abspath('..'))  # go up to root directory (work on this)
 
 from model.WGAST import *
 from data_loader.data import PatchSet, get_pair_path_with_masks
