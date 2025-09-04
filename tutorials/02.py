@@ -32,7 +32,7 @@ from datetime import datetime
 get_triple = GetTriple()
 
 # Load the common dates shared across all three satellite sources
-common_dates_array = np.load('commun_dates.npy')
+common_dates_array = np.load(r'C:\Users\BIT\OneDrive - Birla Institute of Technology\Desktop\PROJECTS\Air-Quality\WGAST\tutorials\common_dates.npy', allow_pickle=True)
 
 # Load Sentinel-2 images that match the common dates
 sentinel2_images = get_triple.load_sentinel(

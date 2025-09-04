@@ -24,8 +24,8 @@ import shutil
 # Load two arrays of common valid dates
 # You can change the arguments in np.load() to match the filenames you used when generating your (t1, t2) common dates.
 
-common_dates_array1 = np.load('common_dates_t1.npy')  # Dates for reference images (t1)
-common_dates_array2 = np.load('common_dates_t2.npy')  # Dates for target images (t2)
+common_dates_array1 = np.load(r'C:\Users\BIT\OneDrive - Birla Institute of Technology\Desktop\PROJECTS\Air-Quality\WGAST\data_download\common_dates_t1.npy', allow_pickle=True) # Dates for reference images (t1)
+common_dates_array2 = np.load(r'C:\Users\BIT\OneDrive - Birla Institute of Technology\Desktop\PROJECTS\Air-Quality\WGAST\data_download\common_dates_t2.npy', allow_pickle=True)  # Dates for target images (t2)
 
 # These two arrays must be generated beforehand by running your common date matching procedure twice:
 # You are expected to ensure both arrays are aligned and consistent for further processing.
